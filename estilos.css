@@ -1,0 +1,38 @@
+* { box-sizing: border-box; margin: 0px; font-family: 'Segoe UI', Arial, sans-serif; }
+
+body { color: white; background: #0f172a; }
+
+.video-fondo {
+  position: fixed; top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover; z-index: -1; opacity: 0.30;
+}
+
+.menuH { overflow: hidden; border: 5px double #38bdf8; background: black; }
+.menuH a {
+  background-color: black; color: white; text-decoration: none;
+  float: left; width: 33.33%; text-align: center; padding: 20px;
+}
+.menuH a:hover { background-color: white; color: black; }
+
+.menuV { float: left; width: 26%; overflow: hidden; border: 5px double #38bdf8; background: rgba(0,0,0,0.7); }
+.menuV a {
+  background-color: black; color: white; text-decoration: none;
+  padding: 20px; display: block;
+}
+.menuV a:hover { background-color: white; color: black; }
+
+.contenido {
+  float: left; width: 74%; padding: 25px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+}
+.contenido h1 { color: #38bdf8; margin-bottom: 12px; }
+.contenido h2 { color: #facc15; margin: 18px 0 8px; }
+.contenido p { line-height: 1.6; margin-bottom: 12px; }
+
+img.foto {
+  float: left; width: 100%;
+  border: 5px double #38bdf8;
+  border-radius: 15px; margin: 15px 0;
+}
